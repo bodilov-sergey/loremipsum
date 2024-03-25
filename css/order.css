@@ -1,0 +1,19 @@
+.order {
+    padding: 119px 0 96px;
+    background: url("../img/order/order-bg.jpg") 50% 50% / cover no-repeat;
+}
+.order__title {
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.order__subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.order__steps {
+    margin-bottom: 56px;
+}

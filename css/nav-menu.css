@@ -1,0 +1,115 @@
+.nav-menu {
+    background: #12121f;
+    background: #10101de6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.nav-menu__wrapper {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu__logo {
+    width: 170px;
+}
+.nav-menu__burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+    background: transparent;
+    padding: 5px;
+}
+.nav-menu__burger-line {
+    display: block;
+    border-radius: 5px;
+    height: 5px;
+    width: 50px;
+    background: #fff;
+}
+.nav-menu__close {
+    display: flex;
+    margin-left: auto;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    position: relative;
+    margin-bottom: 20px;
+}
+.nav-menu__close-line {
+    display: block;
+    border-radius: 5px;
+    height: 5px;
+    width: 60px;
+    background: #fff;
+    position: absolute;
+    top: 27.5px;
+    left: 0;
+}
+.nav-menu__close-line:first-child {
+    transform: rotate(45deg);
+}
+.nav-menu__close-line:last-child {
+    transform: rotate(-45deg);
+}
+.nav-menu__links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #1b1c25;
+    width: 320px;
+    height: 100vh;
+    transition: transform 0.2s ease;
+    transform: translateX(100%);
+    padding: 20px;
+}
+.nav-menu__links--open {
+    transform: translateX(0);
+}
+.nav-menu__link {
+    display: block;
+    padding: 15px 0 14px;
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+.nav-menu__link:hover {
+    color: #43abf0;
+}
+.nav-menu__link--active,
+.nav-menu__link--active:visited {
+    color: #43abf0;
+}
+
+@media (min-width: 768px) {
+    .nav-menu__links {
+        display: flex;
+        position: static;
+        background: none;
+        width: auto;
+        height: auto;
+        transform: none;
+        padding: 0;
+    }
+    .nav-menu__burger {
+        display: none;
+    }
+    .nav-menu__close {
+        display: none;
+    }
+    .nav-menu__link {
+        margin-left: 60px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 992px) {
+    .nav-menu__logo {
+        width: 247px;
+    }
+    .nav-menu__links {
+        padding-top: 6px;
+    }
+}

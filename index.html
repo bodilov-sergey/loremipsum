@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="nav-menu">
+			<div class="container">
+				<div class="nav-menu__wrapper">
+					<img class="nav-menu__logo" src="./img/nav-menu/logo.png" alt="Логотип">
+					<button class="nav-menu__burger" type="button" aria-label="Меню">
+						<span class="nav-menu__burger-line"></span>
+						<span class="nav-menu__burger-line"></span>
+						<span class="nav-menu__burger-line"></span>
+					</button>
+					<ul class="nav-menu__links">
+						<li>
+							<button class="nav-menu__close" type="button" aria-label="Закрыть">
+								<span class="nav-menu__close-line"></span>
+								<span class="nav-menu__close-line"></span>
+							</button></li>
+						<li><a class="nav-menu__link nav-menu__link--active" href="#">Бизнес</a></li>
+						<li><a class="nav-menu__link" href="#">О нас</a></li>
+						<li><a class="nav-menu__link" href="#">Цены</a></li>
+						<li><a class="nav-menu__link" href="#">Оформить заказ</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="header__content">
+				<h1 class="header__title">
+					<span class="text-primary">Lorem ipsum</span> dolor sit <br class="header__break">
+					amet consectetur <span class="text-primary">adipiscing</span>
+				</h1>
+				<p class="header__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+				<ul class="header__list">
+					<li class="header__list-item">Totam rem aperiam eaque ipsa</li>
+					<li class="header__list-item">Sit voluptatem accusantium doloremque laudantium</li>
+					<li class="header__list-item">Sed ut perspiciatis, unde omnis iste natus error</li>
+				</ul>
+				<div class="header__btns">
+					<button type="button" class="header__btn btn btn-primary">заказать</button>
+					<button type="button" class="header__btn btn btn-secondary">подробнее</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="order">
+			<div class="container">
+				<h2 class="order__title">Оформление <span class="text-primary">Заказа</span></h2>
+				<p class="order__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+				<div class="order__steps order-steps">
+					<div class="order-steps__item">
+						<div class="order-steps__item-img">
+							<img src="./img/order-steps/search.svg" alt="">
+						</div>
+						<div class="order-steps__item-description">
+							Lorem ipsum dolorsit amet
+						</div>
+					</div>
+					<div class="order-steps__item">
+						<div class="order-steps__item-img">
+							<img src="./img/order-steps/percentage.svg" alt="">
+						</div>
+						<div class="order-steps__item-description">
+							Сonsecteturadipiscing elit
+						</div>
+					</div>
+					<div class="order-steps__item">
+						<div class="order-steps__item-img">
+							<img src="./img/order-steps/file.svg" alt="">
+						</div>
+						<div class="order-steps__item-description">
+							Sed do eiusmod tempor
+						</div>
+					</div>
+					<div class="order-steps__item">
+						<div class="order-steps__item-img">
+							<img src="./img/order-steps/e-mail.svg" alt="">
+						</div>
+						<div class="order-steps__item-description">
+							Esse cillum doloreeu fugiat
+						</div>
+					</div>
+					<div class="order-steps__item">
+						<div class="order-steps__item-img">
+							<img src="./img/order-steps/pay.svg" alt="">
+						</div>
+						<div class="order-steps__item-description">
+							Excepteur sint occaecat cupidatat non proident
+						</div>
+					</div>
+				</div>
+				<form class="order-form">
+					<div class="order-form__elements">
+						<div class="order-form__select select">
+							<input class="select__input" type="hidden" name="select">
+							<div class="select__head">Выберите тип системы</div>
+							<ul class="select__list">
+								<li class="select__item" data-value="value1">Sed ut perspiciatis</li>
+								<li class="select__item" data-value="value2">Nemo enim ipsam</li>
+								<li class="select__item" data-value="value3">Et harum quidem</li>
+								<li class="select__item" data-value="value4">Temporibus autem</li>
+								<li class="select__item" data-value="value5">Itaque earum rerum</li>
+								<li class="select__item" data-value="value6">Sed ut perspiciatis</li>
+								<li class="select__item" data-value="value7">Nemo enim ipsam</li>
+								<li class="select__item" data-value="value8">Et harum quidem</li>
+								<li class="select__item" data-value="value9">Temporibus autem</li>
+								<li class="select__item" data-value="value10">Itaque earum rerum</li>
+								<li class="select__item" data-value="value11">Sed ut perspiciatis</li>
+								<li class="select__item" data-value="value12">Nemo enim ipsam</li>
+								<li class="select__item" data-value="value13">Et harum quidem</li>
+								<li class="select__item" data-value="value14">Temporibus autem</li>
+								<li class="select__item" data-value="value15">Itaque earum rerum</li>
+								<li class="select__item" data-value="value16">Sed ut perspiciatis</li>
+								<li class="select__item" data-value="value17">Nemo enim ipsam</li>
+								<li class="select__item" data-value="value18">Et harum quidem</li>
+								<li class="select__item" data-value="value19">Temporibus autem</li>
+								<li class="select__item" data-value="value20">Itaque earum rerum</li>
+							</ul>
+						</div>
+						<input class="order-form__input control" type="email" name="email" required placeholder="Ваш e-mail">
+						<input class="order-form__input control" type="text" name="username" placeholder="Ваше имя">
+						<label class="order-form__range">
+							<span class="order-form__range-text">
+								<span>Sed ut perspiciatis, unde omnis iste natus</span>
+								<span class="order-form__range-value">75 %</span>
+							</span>
+							<input class="range" type="range" name="percentage" value="75" min="0" max="100">
+						</label>
+						<label class="order-form__file file">
+							<img class="file__img" src="./img/order-form/attach-file.svg" alt="">
+							Прикрепить файл
+							<input class="file__control" type="file" name="file">
+						</label>
+					</div>
+					<div class="order-form__elements">
+						<button class="btn btn-primary order-form__btn" type="submit">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="container">
+				<h2 class="order__title">Отзывы<span class="text-primary"> о нас</span></h2>
+				<div class="slider__wrapper">
+					<div class="slider__slides">
+						<div class="slider__slide">
+							<img class="slider__slide-img" src="./img/slider/designer.jpg" alt="designer">
+							<p class="slider__slide-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci quo, mollitia harum maiores inventore nesciunt
+								doloribus facere consequatur, laudantium hic consequuntur earum sit saepe magni, ea laboriosam suscipit iste.
+							</p>
+						</div>
+						<div class="slider__slide">
+							<img class="slider__slide-img" src="./img/slider/developer 1.jpg" alt="developer">
+							<p class="slider__slide-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis veritatis sequi nulla voluptates, fugiat deleniti
+								laborum in id saepe aliquid adipisci quas, quod explicabo fugit quidem neque quo dolores.
+							</p>
+						</div>
+						<div class="slider__slide">
+							<img class="slider__slide-img" src="./img/slider/developer 2.jpg" alt="developer">
+							<p class="slider__slide-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem quis error eum magnam voluptate rerum possimus mollitia!
+								Voluptatum enim vitae impedit molestiae ad iure architecto voluptas aspernatur iusto ex.
+							</p>
+						</div>
+						<div class="slider__slide">
+							<img class="slider__slide-img" src="./img/slider/developer 3.jpg" alt="developer">
+							<p class="slider__slide-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt impedit eum odit est ab, assumenda tempore tenetur officia illo quod.
+								Eos autem, necessitatibus porro assumenda culpa hic laudantium harum! Atque?
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt impedit eum odit est ab, assumenda tempore tenetur officia illo quod.
+								Eos autem, necessitatibus porro assumenda culpa hic laudantium harum! Atque?
+							</p>
+						</div>
+						<div class="slider__slide">
+							<img class="slider__slide-img" src="./img/slider/manager.jpg" alt="manager">
+							<p class="slider__slide-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam eum dolores doloribus obcaecati aspernatur error natus fugiat laudantium,
+								perspiciatis a rem, nam maiores unde quam et? Commodi nesciunt reiciendis odit!
+							</p>
+						</div>
+						<div class="slider__slide">
+							<img class="slider__slide-img" src="./img/slider/supervisor.jpg" alt="supervisor">
+							<p class="slider__slide-text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eligendi ex pariatur esse commodi ad quia enim ipsa at obcaecati. Animi
+								totam incidunt doloremque voluptatum reiciendis dignissimos nemo aliquam quas.
+							</p>
+						</div>
+					</div>
+					<button type="button" class="slider__control slider__control--prev" aria-label="Previous slide">&lt;</button>
+					<button type="button" class="slider__control slider__control--next" aria-label="Next slide">&gt;</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer__lists">
+					<ul class="footer__list footer__list--stretched">
+						<li class="footer__list-item">
+							<img class="footer__list-item-icon" src="./img/footer/qiwi.svg" alt="">
+							Qiwi wallet
+						</li>
+						<li class="footer__list-item">
+							<img class="footer__list-item-icon" src="./img/footer/yandex-money.svg" alt="">
+							Yandex Money
+						</li>
+						<li class="footer__list-item">
+							<img class="footer__list-item-icon" src="./img/footer/web-money.svg" alt="">
+							Web Money
+						</li>
+					</ul>
+					<div class="footer__list">
+						<a class="footer__list-item footer__list-item--link" href="mailto:info@ipsum228.com">
+							<img class="footer__list-item-icon" src="./img/footer/mail.svg" alt="">
+							info@ipsum228.com
+						</a>
+						<a class="footer__list-item footer__list-item--link" href="#" target="_blank">
+							<img class="footer__list-item-icon" src="./img/footer/vk.svg" alt="">
+							Мы вконтакте
+						</a>
+					</div>
+				</div>
+				<div class="footer__rights">
+					© 2018 «LOREMIPSUM.NET» Все права защищены.
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="module" src="./js/index.js"></script>
+</body>
+</html>
